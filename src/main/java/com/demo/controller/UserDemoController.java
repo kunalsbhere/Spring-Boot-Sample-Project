@@ -22,7 +22,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @AllArgsConstructor
 @RequestMapping("api/users")
-public class UserDemoController {
+public class UserDemoController  {
 
 	@Autowired
 	private UserDemoService userDemoService;
